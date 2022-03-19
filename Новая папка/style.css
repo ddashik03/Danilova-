@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Raleway:wght@200;400&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-02/1612548423_83-p-serii-mramor-fon-117.jpg) 
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+h5{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+table {
+    font-family: sans-serif;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: rgb(247, 243, 243);
+    color: #404040;
+    border: 16px solid rgb(247, 243, 243);
+    border-radius:20px ;
+}
+
+th {
+    font-size: 18px;
+    padding: 10px;
+}
+
+td {
+    background: #e6e3e3;
+    padding: 5px;
+
+}
+
+h1{
+    font-weight: bold;
+}
+
+
+.container {
+    width: 800px;
+    min-height: 1000px;
+    border: 10px solid #fff;
+    margin: 100px auto;
+    background: #fff;
+} 
+ 
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.tittle-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1626980186_9-kartinkin-com-p-belii-fon-monotonnii-krasivo-9.jpg) no-repeat center center / cover;
+    margin-right: 10px;
+
+}
+
+.tittle-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://sun9-77.userapi.com/impf/e_FG7L8Kv-u62ksQ9Lz3IGcKmklM3Sw1hYPEpw/dncQOrV7Udc.jpg?size=1380x1740&quality=95&sign=fbdc6fe6a9f3171dc3760625d3ad4979&type=album) no-repeat center center / cover;
+}
+
+.nav ul {
+    display: flex;
+    background: rgb(253, 251, 251);
+    margin: 10px 0;
+
+}
+
+
+.nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    border-right: 1px solid #c9c6c6;
+    transition: background .3s ease;
+}
+
+.nav li a:hover {
+    background: #999898;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+}
+
+.sidebar {
+    padding: 20px;
+    width: 30%;
+    background: url(https://sun9-56.userapi.com/impf/sFnG8-kd3tQ3hfN9sDQ7qMh7uvv6pc_v6MjT1w/mySBYXQjdDI.jpg?size=575x1258&quality=95&sign=c8d4e78e986a7596095bc97f36d7020f&type=album) no-repeat center center / cover;
+    color: #404040;
+    font-weight: bold;
+
+}
+
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+.skills li {
+    padding: 10px;
+    margin: 20px 0;
+    transition: transform .5s ease;
+}
+
+.skills li:hover {
+    transform: translateX(10px);
+}
+
+h6 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
